@@ -1,5 +1,5 @@
 var PIGATO = require('../');
-var zmq = require('zmq');
+var zmq = require('zeromq');
 var chai = require('chai');
 var assert = chai.assert;
 var uuid = require('node-uuid');
