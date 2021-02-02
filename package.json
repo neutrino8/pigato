@@ -1,5 +1,5 @@
 {
-  "name": "pigato",
+  "name": "n8-pigato",
   "version": "1.0.2",
   "private": false,
   "description": "A high-performance Node.js microservices framework based on ZeroMQ",
