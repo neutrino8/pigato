@@ -1,4 +1,4 @@
-var zmq = require('zmq');
+var zmq = require('zeromq');
 var _ = require('lodash');
 var util = require('util');
 var Base = require('./Base');

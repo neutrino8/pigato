@@ -1,6 +1,6 @@
 {
   "name": "pigato",
-  "version": "0.0.47",
+  "version": "1.0.0",
   "private": false,
   "description": "A high-performance Node.js microservices framework based on ZeroMQ",
   "author": "prdn <paolo.ardoino@gmail.com> (http://ardoino.com/)",
@@ -23,7 +23,7 @@
     "node-uuid": "~1.4.7",
     "readable-stream": "2.0.4",
     "semver": "^5.0.3",
-    "zmq": "~2.15.2"
+    "zeromq": "5.2.0"
   },
   "engine": {
     "node": ">=0.10"
@@ -52,5 +52,8 @@
   "homepage": "https://github.com/prdn/pigato",
   "optionalDependencies": {
     "eslint": "~1.6.0"
+  },
+  "publishConfig": {
+    "registry": "https://private.nexus.neutrino8.com/repository/cloudmondo-npm-private/"
   }
 }
