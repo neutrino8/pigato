@@ -500,7 +500,7 @@ describe('Client', function() {
         assert.include(id.toString(), client.conf.prefix);
         assert.equal(MDP.CLIENT, clazz.toString());
         assert.equal(MDP.W_HEARTBEAT, type.toString());
-        assert.equal(topic, "request");
+        assert.equal(topic, 'request');
         assert.equal(requestId, rid.toString());
       }
 
